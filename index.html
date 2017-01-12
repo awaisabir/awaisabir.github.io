@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>  		
+	<head>
 		<title>Muhammad Awais Qureshi</title>
 
 		<!-- Latest compiled and minified CSS -->
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
 	    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+		  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
 	    <script src="https://use.fontawesome.com/c786bdfef9.js"></script>
-		<script src="myapp.js"></script>
+		  <script src="myapp.js"></script>
 
-	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+		  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 	    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 	    <link rel="stylesheet" type="text/css" href="stylesheets/set2.css">
@@ -28,13 +29,13 @@
 
 	<body ng-app="myApp">
 
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation" style="font-family: 'Montserrat', serif;">
 	  		<div class="container-fluid">
 	    	<div class="navbar-header"></div>
-	    	<a class="navbar-brand" href="#/home"><i class="fa fa-cog fa-spin fa-fw"></i></a>
+	    	<a class="navbar-brand"><i class="fa fa-cog fa-spin fa-fw"></i></a>
 
 		    	<ul class="nav navbar-nav">
-		      		<li class="active"><a href="#/home"><i class="fa fa-home"></i></a></li>
+		      		<li><a href="#/home"><i class="fa fa-home"></i></a></li>
 		      		<li><a href="#/intro">Intro</a></li>
 		      		<li><a href="#/projects">Projects</a></li>
 		      		<li><a href="#/contact">Contact</a></li>
@@ -43,22 +44,19 @@
 		</nav>
 
 
-			
-			<div ng-view></div>
-			
 
-		
-		
+			<div ng-view></div>
+
+
+
+
 		<div style="position: fixed; right:5px; bottom: 450px">
-			<a href ="http://www.github.com/awaisabir" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+			<a href ="http://www.github.com/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x"></i></span></a>
 		</div>
 
 		<div style="position: fixed; right:5px; bottom: 400px">
-			<a href ="https://ca.linkedin.com/in/awaisabir" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
+			<a href ="https://ca.linkedin.com/in/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 		</div>
+
 	</body>
 </html>
-
-
-
-
