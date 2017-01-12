@@ -11,7 +11,7 @@ h2{
 
 h3{
 	font-family: 'Archivo Narrow', sans-serif;
-	color:  #FFC300;
+/*	color:  #FFC300;*/
 	font-size: 40px;
 	text-align: left;
 }
@@ -60,7 +60,7 @@ a:hover {
 }
 
 blockquote {
-  border-left: 10px solid #ccc;
+  border-left: 10px solid grey;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -82,6 +82,16 @@ blockquote:before {
     vertical-align: left;
     background-size: cover;
     overflow: auto;
+		margin: 0;
+		transition: 1s;
+}
+#contact-jumbo:hover {
+	background-color: #82e0aa;
+	transition: 1s linear;
+}
+#home-jumbo:hover {
+	background-color: #d0d3d4;
+	transition: 0.5s;
 }
 
 #section {
@@ -95,18 +105,6 @@ blockquote:before {
     text-align:center;
     padding:50px;
 }
-.panel {
-	padding: 20px;
-	overflow: auto;
-}
-
-.panel-transparent {
-    background: none;
-}
-
-.panel-center {
-	text-align: center;
-}
 
 ul#menu {
     padding: 0;
@@ -117,16 +115,54 @@ ul#menu {
 
 ul#menu li {
     display: inline;
-    padding-right: 50px;
+    margin-right: 25px;
 }
 
-hr {
-	border-color: #FFC300;
-	border-width: 5px;
-	max-height: 30px;
-	max-width: 540px;
+.fa-stack {
+	transition: 0.5s;
+}
+.fa-skype {
+	transition: 0.5s;
+}
+.fa-github-alt {
+	transition: 0.5s;
+}
+.fa-linkedin-square {
+	transition: 0.5s;
+}
+.fa-google {
+	transition: 0.5s;
+}
+.fa-linkedin {
+	transition: 0.5s;
 }
 
-body {
-	background-image: url('../images/back.jpg');
+.fa-skype:hover {
+	color: #3498db;
+	transition: 0.5s;
+}
+
+.fa-stack:hover .fa-github-alt {
+	color: #424949;
+	transition: 0.5s;
+}
+
+.fa-stack:hover .fa-square-o {
+	color: #424949;
+	transition: 0.5s;
+}
+
+.fa-stack:hover .fa-linkedin {
+	color: #1b4f72;
+	transition: 0.5s;
+}
+
+.fa-google:hover {
+	color:  #a93226;
+	transition: 0.5s;
+}
+
+.fa-linkedin-square:hover {
+	color:  #1b4f72;
+	transition: 0.5s;
 }
