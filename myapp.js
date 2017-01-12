@@ -25,8 +25,24 @@ myApp.config(function ($routeProvider) {
 	.when('/contact', {
 		templateUrl: 'templates/contact.html',
 		controller: 'mainController'
+	})
+	.when('/c', {
+		templateUrl: 'templates/c.html',
+		controller: 'mainController'
+	})
+	.when('/cplusplus', {
+		templateUrl: 'templates/cplusplus.html',
+		controller: 'mainController'
+	})
+	.when('/processing', {
+		templateUrl: 'templates/processing.html',
+		controller: 'mainController'
+	})
+	.when('/meanstack', {
+		templateUrl: 'templates/meanstack.html',
+		controller: 'mainController'
 	});
-	
+
 });
 
 myApp.controller('mainController', function($scope) {
