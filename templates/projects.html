@@ -1,32 +1,19 @@
-<!--  Going to update this page with this code once it's done. Will keep the old page running for the time being
+<div class="jumbotron">
+	<h2>Projects</h2>
+</div>
 
-<h2>Projects</h2>
+<p id="p01" style="text-align:center;"><strong>Hint:</strong> Click on the checkboxes for a suprise!</p>
 
-
-<div class="jumbotron" style="margin-top: 50px; text-align:center;">
-	<div class="container">
-		<p id="p01">
-			Welcome to my projects page! This page will direct you to all the projects I was able to build either through school, or independent work. Feel free to select a language from below, which should direct you the corrseponding page (unless there is an error I did not fix!)
-		</p>
-		<div class="jumbotron" id="contact-jumbo">
-			<p>C++</p>
-			<p>C</p>
-			<p>Processing 2.0</p>
-			<p>Java</p>
-			<p>MEAN</p>
-			<p>ReactJs</p>
-		</div>
-	</div>
-</div> -->
-<div class="container">
-	<div class="jumbotron">
-		<h2>
-			Projects
-		</h2>
+<div style="margin-top: 50px">
+	<div class="col-md-8 col-md-offset-2 text-center">
+			<div class="col-sm-4"><i class="devicon-cplusplus-plain colored" style="font-size:4.5rem;"></i><input type="checkbox" ng-model="cplusplus"></div>
+			<div class="col-sm-4"><i class="devicon-c-plain colored" style="font-size:4.5rem;"></i><input type="checkbox" ng-model="c"></div>
+			<div class="col-sm-4"><img src="../images/processingLogo-3.png" width="50" height="50"><input type="checkbox" ng-model="Processing"></div>
 	</div>
 </div>
 
 
+<div ng-show="Processing">
 	<div class="grid">
 		<figure class="effect-julia">
 			<img src="images/breakout1.png"></img>
@@ -34,15 +21,15 @@
 				<p id="p01">
 					<strong><u>BREAKOUT GAME</u></strong>
 				</p>
-					<p id="p01">
-						Made using Processing 2.2
-					</p>
-					<p id="p01">
-						Uses a 2D array system
-					</p>
-					<p id="p01">
-						Real ball movements
-					</p>
+				<p id="p01">
+					Made using Processing 2.2
+				</p>
+				<p id="p01">
+					Uses a 2D array system
+				</p>
+				<p id="p01">
+					Real ball movements
+				</p>
 			</figcaption>
 		</figure>
 		<figure class="effect-julia">
@@ -63,20 +50,58 @@
 			</figcaption>
 		</figure>
 	</div>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<p id="p04">
+			Breakout(<a href="https://github.com/awaisabir/ProcessingVentures/tree/master/Breakout" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
+		</p>
+		<p id="p04">You have three lives to win the game.. Let's get to it!</p>
+		<hr>
+	</div>
+
+	<div class="grid">
+		<figure class="effect-julia">
+			<img src="images/Memory_Game.png"></img>
+			<figcaption>
+				<p id="p01"><strong><u>
+					Memory Game
+				</u></strong></p>
+				<p id="p01">
+					Uses a 2D array setup
+				</p>
+				<p id="p01">
+					Simplistic & Fun!
+				</p>
+			</figcaption>
+		</figure>
+		<figure class="effect-julia">
+			<img src="images/Memory_Game1.png">
+			<figcaption>
+				<p id="p01">
+					Mouse click(s) start the game
+				</p>
+				<p id="p01">
+					Randomized colors
+				</p>
+				<p id="p01">
+					Coded in Processing 2.2
+				</p>
+			</figcaption>
+		</figure>
+	</div>
 
 
-<div class="col-md-8 col-md-offset-2 text-center">
-	<p id="p04">
-		Breakout(<a href="https://github.com/awaisabir/ProcessingVentures/tree/master/Breakout" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
-
-	</p>
-	<p id="p04">You have three lives to win the game.. Let's get to it!</p>
-
-	<hr>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<p id="p04">
+			Memory Game(<a href="https://github.com/awaisabir/MatchingGame" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
+		</p>
+		<p id="p04">
+			Simple Memory Game with random colors each game
+		</p>
+		<hr>
+	</div>
 </div>
 
-
-
+<div ng-show="c">
 	<div class="grid">
 		<figure class="effect-julia">
 			<img src="images/movie_database1.png"></img>
@@ -114,63 +139,19 @@
 		</figure>
 	</div>
 
-
-<div class="col-md-8 col-md-offset-2 text-center">
-	<p id="p04">
-		Movie Database(<a href="https://github.com/awaisabir/MovieDatabase" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
-	</p>
-	<p id="p04">
-		Movie database made using a Doubly-Linked List with a simple UI
-	</p>
-
-	<hr>
-</div>
-
-
-<div class="grid">
-		<figure class="effect-julia">
-			<img src="images/Memory_Game.png"></img>
-			<figcaption>
-				<p id="p01"><strong><u>
-					Memory Game
-				</u></strong></p>
-				<p id="p01">
-					Uses a 2D array setup
-				</p>
-				<p id="p01">
-					Simplistic & Fun!
-				</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-julia">
-			<img src="images/Memory_Game1.png">
-			<figcaption>
-				<p id="p01">
-					Mouse click(s) start the game
-				</p>
-				<p id="p01">
-					Randomized colors
-				</p>
-				<p id="p01">
-					Coded in Processing 2.2
-				</p>
-			</figcaption>
-		</figure>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<p id="p04">
+			Movie Database(<a href="https://github.com/awaisabir/MovieDatabase" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
+		</p>
+		<p id="p04">
+			Movie database made using a Doubly-Linked List with a simple UI
+		</p>
+		<hr>
 	</div>
-
-
-<div class="col-md-8 col-md-offset-2 text-center">
-	<p id="p04">
-		Memory Game(<a href="https://github.com/awaisabir/MatchingGame" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
-	</p>
-	<p id="p04">
-		Simple Memory Game with random colors each game
-	</p>
-
-	<hr>
 </div>
 
-<div class="grid">
+<div ng-show="cplusplus">
+	<div class="grid">
 		<figure class="effect-julia">
 			<img src="images/bookstore.png"></img>
 			<figcaption>
@@ -219,14 +200,13 @@
 		</figure>
 	</div>
 
-
-<div class="col-md-8 col-md-offset-2 text-center">
-	<p id="p04">
-		Bookstore Management System(<a href="https://github.com/awaisabir/BookStoreSystem" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
-	</p>
-	<p id="p04">
-		Bookstore Management System which follows proper Software Engineering Principles - Data Abstraction, Encapsulation, MVC design and Inheritence, all combined in a simple & interactive UI.
-	</p>
-
-	<hr>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<p id="p04">
+			Bookstore Management System(<a href="https://github.com/awaisabir/BookStoreSystem" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>)
+		</p>
+		<p id="p04">
+			Bookstore Management System which follows proper Software Engineering Principles - Data Abstraction, Encapsulation, MVC design and Inheritence, all combined in a simple & interactive UI.
+		</p>
+		<hr>
+	</div>
 </div>
