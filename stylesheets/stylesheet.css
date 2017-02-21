@@ -1,3 +1,4 @@
+/*Headings*/
 h1{
 	font-family: 'Poiret One', cursive;
 }
@@ -27,6 +28,7 @@ p{
 		transition: 0.5s;
 }
 
+/*paragaphs*/
 #p01{
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
@@ -54,6 +56,7 @@ p{
 	font-size: 30px;
 }
 
+/*links*/
 a {
 	color: black;
 	text-decoration: none;
@@ -86,15 +89,40 @@ blockquote:before {
     vertical-align: left;
     background-size: cover;
     overflow: auto;
-		margin: 0;
-		transition: 1s;
+	margin: 0;
 }
-#contact-jumbo {
-	background: transparent;
+
+/*Navbar Shenannigans*/
+
+/*.navbar-brand {
+	position: absolute;
+    width: 95%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}*/
+/*shrink effect*/
+/*nav.navbar-default.shrink {
+  min-height: 5%;
+  transition: 0.5s;
 }
-#contact-jumbo:hover {
-	background-color: #82e0aa;
-	transition: 1s linear;
+
+nav.shrink a {
+  padding-bottom: 15px;
+}
+
+nav.shrink .navbar-brand {
+  padding-bottom: 15px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}*/
+
+/*IDs*/
+#projects-jumbo {
+	margin-top: 75px;
 }
 #home-jumbo:hover {
 	background-color: #d0d3d4;
@@ -117,7 +145,7 @@ ul#menu {
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 ul#menu li {
@@ -125,6 +153,24 @@ ul#menu li {
     margin-right: 25px;
 }
 
+#navbar-item:hover {
+	background-color: lightgrey;
+}
+
+
+/*index.html icons*/
+.link-1 {
+	position: fixed; 
+	right:5px; 
+	bottom: 450px;
+}
+/*index.html icons*/
+.link-2 {
+	position: fixed; 
+	right:5px; 
+	bottom: 400px;
+}
+/*font-awesome icons transtions*/
 .fa-stack {
 	transition: 0.5s;
 }

@@ -30,38 +30,33 @@
 
 <body ng-app="myApp">
 
-    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="font-family: 'Montserrat', serif;">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" align="center" style="font-family: 'Montserrat', serif; opacity: 0.7; border: none;">
         <div class="container-fluid">
             <div class="navbar-header"></div>
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
       </button>
-<!--             <a class="navbar-brand"><i class="fa fa-cog fa-spin fa-fw"></i></a> -->
+            <!-- <a class="navbar-brand">asQ</a> -->
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#/home"><i class="fa fa-home"></i></a></li>
-                    <li><a href="#/intro">Intro</a></li>
-                    <li><a href="#/projects">Projects</a></li>
-                    <li><a href="#/contact">Contact</a></li>
+                    <li id="navbar-item"><a href="#/home"><i class="fa fa-home"></i></a></li>
+                    <li id="navbar-item"><a href="#/intro">Intro</a></li>
+                    <li id="navbar-item"><a href="#/projects">Projects</a></li>
+                    <li id="navbar-item"><a href="#/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-
     <div ng-view></div>
 
-
-
-
-    <div style="position: fixed; right:5px; bottom: 450px">
+    <div class="link-1">
         <a href="http://www.github.com/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x"></i></span></a>
     </div>
 
-    <div style="position: fixed; right:5px; bottom: 400px">
+    <div class="link-2">
         <a href="https://ca.linkedin.com/in/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
     </div>
 
