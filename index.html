@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<title>Muhammad Awais Qureshi</title>
 
-		<!-- Latest compiled and minified CSS -->
-	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+<head>
+    <title>Muhammad Awais Qureshi</title>
 
-	    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-		  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
-	    <script src="https://use.fontawesome.com/c786bdfef9.js"></script>
-		  <script src="myapp.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
-	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
-		  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
-		  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-		  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+    <script src="https://use.fontawesome.com/c786bdfef9.js"></script>
+    <script src="myapp.js"></script>
 
-	    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
-	    <link rel="stylesheet" type="text/css" href="stylesheets/set2.css">
-	</head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-
-	<body ng-app="myApp">
-
-		<nav class="navbar navbar-default navbar-static-top" role="navigation" style="font-family: 'Montserrat', serif;">
-	  		<div class="container-fluid">
-	    	<div class="navbar-header"></div>
-	    	<a class="navbar-brand"><i class="fa fa-cog fa-spin fa-fw"></i></a>
-
-		    	<ul class="nav navbar-nav">
-		      		<li><a href="#/home"><i class="fa fa-home"></i></a></li>
-		      		<li><a href="#/intro">Intro</a></li>
-		      		<li><a href="#/projects">Projects</a></li>
-		      		<li><a href="#/contact">Contact</a></li>
-		    	</ul>
-	  		</div>
-		</nav>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/set2.css">
+</head>
 
 
+<body ng-app="myApp">
 
-			<div ng-view></div>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="font-family: 'Montserrat', serif;">
+        <div class="container-fluid">
+            <div class="navbar-header"></div>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+<!--             <a class="navbar-brand"><i class="fa fa-cog fa-spin fa-fw"></i></a> -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/home"><i class="fa fa-home"></i></a></li>
+                    <li><a href="#/intro">Intro</a></li>
+                    <li><a href="#/projects">Projects</a></li>
+                    <li><a href="#/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div ng-view></div>
 
 
 
 
-		<div style="position: fixed; right:5px; bottom: 450px">
-			<a href ="http://www.github.com/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x"></i></span></a>
-		</div>
+    <div style="position: fixed; right:5px; bottom: 450px">
+        <a href="http://www.github.com/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x"></i></span></a>
+    </div>
 
-		<div style="position: fixed; right:5px; bottom: 400px">
-			<a href ="https://ca.linkedin.com/in/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
-		</div>
+    <div style="position: fixed; right:5px; bottom: 400px">
+        <a href="https://ca.linkedin.com/in/awaisabir" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
+    </div>
 
-	</body>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
 </html>

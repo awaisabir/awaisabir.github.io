@@ -89,6 +89,9 @@ blockquote:before {
 		margin: 0;
 		transition: 1s;
 }
+#contact-jumbo {
+	background: transparent;
+}
 #contact-jumbo:hover {
 	background-color: #82e0aa;
 	transition: 1s linear;

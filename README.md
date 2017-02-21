@@ -4,6 +4,6 @@ Welcome to my Portfolio Site! It is currently using AngularJS, HTML5 & CSS3. My 
 
 
 ##Recent Updates
-In the process of updating my site aesthetically. Didn't like the outlay of it personally. Will soon be done my Projects page! And update all the projects!
+In the process of updating my projects.
 
 Stay tuned!
