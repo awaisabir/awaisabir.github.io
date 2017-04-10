@@ -1,0 +1,125 @@
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+html{
+  position:relative;
+  min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+  margin:0;
+  padding:0;
+}
+.container {
+
+}
+
+blockquote:before {
+  color: grey;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+#intro-text {
+  margin-top: 50px;
+}
+
+#desc {
+  font-size: 17px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+blockquote > p {
+  font-style: italic;
+}
+
+.words {
+  margin-top: 50px;
+}
+
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+  color: white;
+}
+
+.carousel, .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+  margin: 0 auto;
+  max-width: 85%;
+  max-height: 25%;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-width: 85%;
+    max-height: 25%;
+}
+
+hr {
+  border-color: #48cfad;
+  width: 10%;
+  border-width: 10px;
+}
+
+/*https://jsfiddle.net/tmdy51rh/5/  : reference*/
+.scrollup {
+    background: rgba(0, 0, 0, 0) url("http://www.bba-reman.com/images/icon_top.png") no-repeat scroll 0 0;
+    bottom: 50px;
+    height: 65px;
+    position: fixed;
+    right: 15px;
+    text-indent: -9999px;
+    width: 65px;
+    opacity: 0;
+    -webkit-transition: opacity 300ms ease-in;
+    -moz-transition: opacity 300ms ease-in;
+    -o-transition: opacity 300ms ease-in;
+    -ms-transition: opacity 300ms ease-in;
+    transition: opacity 300ms ease-in;
+}
+.visible {
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-in;
+    -moz-transition: opacity 300ms ease-in;
+    -o-transition: opacity 300ms ease-in;
+    -ms-transition: opacity 300ms ease-in;
+    transition: opacity 300ms ease-in;
+}
+
+#logo {
+  height: auto;
+  width: auto;
+  max-width: 125px;
+  max-height: 125px;
+  margin-top: -12px;
+}
+/* Media Queries */
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .text-center-sm {
+        text-align: center;
+    }
+
+    #first {
+      margin-top: 75px;
+    }
+}
+
+@media (min-width: 768px) {
+  li {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

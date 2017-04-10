@@ -1,14 +1,15 @@
 {
-  "name": "boilerplate",
+  "name": "myportfolio",
   "version": "1.0.0",
-  "description": "Portfolio",
-  "main": "myapp.js",
+  "description": "Portfolio built on AngularJS router && FaltUI",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Muhammad Awais Qureshi",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "angular-ui-router": "^0.3.2"
+    "angular-ui-router": "^0.4.2",
+    "owl.carousel": "^2.2.0"
   }
 }
