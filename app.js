@@ -141,7 +141,7 @@ myApp.controller('mainController', function($scope, $location, anchorSmoothScrol
           autoplayTimeout:3500,
           autoplayHoverPause:false,
           lazyLoad: true,
-          dotsEach: true,
+          dotsEach: false,
           autoHeight: false
         });
       });

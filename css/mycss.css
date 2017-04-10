@@ -122,25 +122,11 @@ hr {
     }
 
     .owl-carousel .owl-item {
-        height:285px;
+        height:450px;
         width:100%;
     }
-
-    .owl-carousel .owl-stage-outer {
-      height: 250px;
-    }
 }
 
-@media (max-width: 768px) {
-  .owl-carousel .owl-item {
-      height:285px;
-      width:100%;
-  }
-
-  .owl-carousel .owl-stage-outer {
-    height: 250px;
-  }
-}
 
 @media (min-width: 768px) {
   li {
