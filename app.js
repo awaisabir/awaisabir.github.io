@@ -109,8 +109,6 @@ myApp.directive('scrollOnClick', function() {
       function scrollToTop() {
         var scrollDuration = 500;
         var scrollStep = -window.scrollY / (scrollDuration / 15);
-        console.log(scrollStep);
-
         var scrollInterval = setInterval(function(){
           if (window.scrollY != 0) {
             window.scrollBy(0, scrollStep);
@@ -126,4 +124,28 @@ myApp.directive('scrollOnClick', function() {
 
 myApp.controller('mainController', function($scope, $location, anchorSmoothScroll) {
 
+    $scope.gotoElement = function(eID) {
+        // set the location.hash to the id of the element you wish to scroll to.
+        $location.hash('bottom');
+        // call $anchorScroll()
+        anchorSmoothScroll.scrollTo(eID);
+    };
+
+    // initialize the Owl Carousel through jQuery
+    $scope.owl_c = function() {
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:3500,
+          autoplayHoverPause:false,
+          lazyLoad: true,
+          dotsEach: true,
+          autoHeight: false
+        });
+      });
+    }
+
+    $scope.owl_c();
 });
