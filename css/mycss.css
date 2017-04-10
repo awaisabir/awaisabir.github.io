@@ -105,6 +105,11 @@ hr {
   max-height: 125px;
   margin-top: -12px;
 }
+
+.owl-carousel .owl-item {
+    height:450px;
+    width:100%;
+}
 /* Media Queries */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
@@ -114,6 +119,11 @@ hr {
 
     #first {
       margin-top: 75px;
+    }
+
+    .owl-carousel .owl-item {
+        height:200px;
+        width:100%;
     }
 }
 
