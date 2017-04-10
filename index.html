@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Muhammad Awais Qureshi</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootflat.css">
+    <link rel="stylesheet" href="./css/mycss.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <!-- angularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+    <script src="https://use.fontawesome.com/c786bdfef9.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <div class="navbar-brand">
+                    <a href="#/"><img src="../img/logo.png" id="logo"></a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link" href="#/about">About me</a></li>
+                    <li><a class="nav-link" href="#/projects">Projects</a></li>
+                    <li><a class="nav-link" href="https://drive.google.com/file/d/0B50KJCa1n2OYdEthYnNHS1huaWc/view?usp=sharing">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div ng-view></div>
+
+    <div class="footer">
+        <div class="container">
+          <div class="clearfix">
+            <div class="footer-logo"></div>
+            <dl class="footer-nav">
+              <dt class="nav-title"><h4>NETWORK</h4></dt>
+              <dd class="nav-item"><a href="https://linkedin.com/in/awaisabir" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></dd>
+              <dd class="nav-item"><a href="https://github.com/awaisabir"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></dd>
+              <dd class="nav-item"><a href="mailto:awaisabirqureshi@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a></dd>
+            </dl>
+            <dl class="footer-nav">
+              <dt class="nav-title"><h4>SOCIAL</h4></dt>
+              <dd class="nav-item"><a href="https://instagram.com/awais_abir" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></dd>
+              <dd class="nav-item"><a href="https://twitter.com/awaisabir" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></dd>
+              <dd class="nav-item"><a href="https://plus.google.com/108094448129178038774" target="_blank"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></dd>
+            </dl>
+            <dl class="footer-nav">
+              <dt class="nav-title"><h4>BUILT USING</h4></dt>
+              <dd class="nav-item"><a href="#">AngularJS</a></dd>
+              <dd class="nav-item"><a href="#">Bootstrap/BootFlat</a></dd>
+              <dd class="nav-item"><a href="#">HTML5/CSS3</a></dd>
+            </dl>
+          </div>
+          <div class="footer-copyright text-center">Copyright &copy; 2017 MQ All rights reserved.</div>
+        </div>
+      </div>
+    <scroll-on-click></scroll-on-click>
+
+    <!-- jQuery & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootflat's JS Files -->
+    <script src="./js/icheck.min.js" charset="utf-8"></script>
+    <script src="./js/jquery.fs.selecter.min.js" charset="utf-8"></script>
+    <script src="./js/jquery.fs.stepper.min.js" charset="utf-8"></script>
+</body>
+
+</html>

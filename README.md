@@ -1,9 +1,12 @@
-#awaisabir
+# New Portfolio Website
 
-Welcome to my Portfolio Site! It is currently using AngularJS, HTML5 & CSS3. My hopes are to create a Photo Gallery that might run on Angular OR React. But I will decide that once I am done fully immersing myself in React (maybe by mid Summer 2017!)
+I have completely changed the look of my website now. I felt the old look was horrid, and had too much out of place. I am proud of this now, even though it does require work... I actually like looking at it the way it is.
+
+Tasks to complete
+  - Get my Projects Page up and running. (It's exam season right now so it will take me some time for this...)
+  - Make the About page prettier?
 
 
-##Recent Updates
-In the process of updating my projects.
+Stay Tuned for more changes!
 
-Stay tuned!
+-MQ '17.
