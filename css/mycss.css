@@ -72,6 +72,18 @@ blockquote>p {
     max-height: 25%;
 }
 
+.links {
+    margin-top: 20px;
+}
+
+.links>a {
+    margin-right: 20px;
+}
+
+#no-access {
+    cursor: not-allowed;
+}
+
 hr {
     border-color: #48cfad;
     width: 10%;
