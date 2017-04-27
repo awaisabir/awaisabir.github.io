@@ -66,12 +66,6 @@ blockquote>p {
     max-height: 25%;
 }
 
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
-    max-width: 85%;
-    max-height: 25%;
-}
-
 .links {
     margin-top: 20px;
 }
@@ -88,6 +82,28 @@ hr {
     border-color: #48cfad;
     width: 10%;
     border-width: 10px;
+}
+
+.timeline dl dd .events .events-body {
+    text-align: center;
+}
+
+.timeline dl dd .events .events-body .events-heading {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    font-size: 16px;
+}
+
+.modal-content .modal-body img {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -125,16 +141,6 @@ hr {
     max-height: 125px;
     margin-top: -12px;
 }
-
-.carousel,
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
-    max-width: 85%;
-    max-height: 25%;
-}
-
-
-/* Media Queries */
 
 
 /* Small devices (tablets, 768px and up) */
