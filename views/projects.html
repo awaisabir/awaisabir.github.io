@@ -1,4 +1,5 @@
 <div class="container">
+    <h1>Welcome to my Projects Page!</h1>
     <div class="row">
         <div class="col-md-12">
             <div class="timeline">
@@ -9,7 +10,6 @@
                         <div class="time">Apr 14</div>
                         <div class="events" style="background-color: #37bc9b">
                             <div class="events-body">
-                                <img class="img-rounded" src="../img/projects/Emoji/Emoji.png" width="75%" height="50%"><br>
                                 <h4 class="events-heading"> Emoji Password Tester</h4><br>
                                 <button class="btn btn-warning" data-toggle="modal" data-target="#emoji" type="button">More info</button>
                             </div>
@@ -20,8 +20,7 @@
                         <div class="time">Apr 02</div>
                         <div class="events" style="background-color: lightgrey">
                             <div class="events-body">
-                                <img class="img-rounded" src="../img/projects/MEANauth/MEANauth.png" width="75%" height="50%"><br>
-                                <h4 class="events-heading"> Emoji Password Tester</h4><br>
+                                <h4 class="events-heading"> MEAN Authentication</h4><br>
                                 <button class="btn btn-warning" data-toggle="modal" data-target="#auth" type="button">More info</button>
                             </div>
                         </div>
@@ -32,10 +31,8 @@
                         <div class="time">Mar 28</div>
                         <div class="events" style="background-color: #37bc9b">
                             <div class="events-body">
-                                <h4 class="events-heading">Mealshare Onboarding Package</h4>
-                                <p>Worked for Mealshare, to automate their restaurant signup process</p>
-                                <p>Created an online step-wizard form which automatically added restaurants into Mealshare's Salesforce</p>
-                                <p>Was part of the Random Hacks of Kindness (RHOK) event hosted at Abobe</p>
+                                <h4 class="events-heading"> Mealshare Onboarding Package</h4><br>
+                                <button class="btn btn-warning" data-toggle="modal" data-target="#mealshare" type="button">More info</button>
                             </div>
                         </div>
                     </dd>
@@ -45,8 +42,9 @@
                         <div class="events" style="background-color: lightgrey">
                             <div class="events-body">
                                 <h4 class="events-heading">Carleton University Net Income Calculator System (cuNICS)</h4>
-                                <p>Led a team of three students in building a Payroll System for a university environment</p>
-                                <p>cuNICS uses the best Software Engineering Principles, and brings a clean & intuitive UI to the end-user for easy navigation</p>
+                                <button class="btn btn-warning" type="button">More info</button>
+                                <!--<p>Led a team of three students in building a Payroll System for a university environment</p>
+                                <p>cuNICS uses the best Software Engineering Principles, and brings a clean & intuitive UI to the end-user for easy navigation</p>-->
                             </div>
                         </div>
                     </dd>
@@ -57,9 +55,7 @@
                         <div class="events" style="background-color: #37bc9b">
                             <div class="events-body">
                                 <h4 class="events-heading">Chat-It</h4>
-                                <p>Created a new way for people to share their travels to other endeavouring travelers</p>
-                                <p>Chat-It lets users create itineraries of their travels that others can use to plan their travels</p>
-                                <p>The app is connected to Twilio's SMS service which lets users text their location, and get back the top-rated location and activity in their area</p>
+                                <button class="btn btn-warning" data-toggle="modal" data-target="#chat-it" type="button">More info</button>
                             </div>
                         </div>
                     </dd>
@@ -70,11 +66,7 @@
                         <div class="events" style="background-color: lightgrey">
                             <div class="events-body">
                                 <h4 class="events-heading">MAGS-OS</h4>
-                                <p>Led a team of four other members in building a new Operating System</p>
-                                <p>This project extends on an open source OS project called the baskernel</p>
-                                <p>Added a keyboard driver, which allowed users to communicate with the OS</p>
-                                <p>Added pre-set commands which allowed users to get system specifics</p>
-                                <p>Resulted in a new Opeating System with better end-user functionality</p>
+                                <button class="btn btn-warning" data-toggle="modal" data-target="#mags-os" type="button">More info</button>
                             </div>
                         </div>
                     </dd>
@@ -82,6 +74,8 @@
             </div>
         </div>
     </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------ -->
 
     <!-- Modals -->
     <div id="emoji" class="modal fade" role="dialog">
@@ -132,6 +126,86 @@
                         <img src="../img/projects/MEANauth/postman1.png">
                         <img src="../img/projects/MEANauth/postman2.png">
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mealshare" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">ONBOARDING PACKAGE</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Worked for Mealshare, to automate their restaurant signup process</p>
+                    <p>Created an online step-wizard form which automatically added restaurants into Mealshare's Salesforce</p>
+                    <p>Was part of the Random Hacks of Kindness (RHOK) event hosted at Abobe</p>
+                    <p>Language(s):<strong>Javascript, HTML5, CSS3</strong></p>
+                    <p>Framework(s):<strong>jQuery & Bootstrap 3^</strong></p>
+                    <p class="links">
+                        <a href="https://rhok.ca/events/rhok-6/"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="chat-it" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">CHAT-IT</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Created a new way for people to share their travels to other endeavouring travelers</p>
+                    <p>Chat-It lets users create itineraries of their travels that others can use to plan their travels</p>
+                    <p>The app is connected to Twilio's SMS service which lets users text their location, and get back the top-rated location and activity in their area</p>
+                    <p>Frameworks/Tools: <strong>ExpressJS/NodeJS, Angualr2, jQuery, Bootstrap, NeDB, SwaggerUI, TwilioSMS</strong></p>
+                    <p>Language(s): <strong>Javascript, Typescript, HTML5, CSS3</strong></p>
+                    <p class="links">
+                        <a href="https://github.com/DogaIster/qHacks" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                        <div class="text-center">
+                            <img src="../img/projects/CHATIT/chatit.jpg">
+                            <img src="../img/projects/CHATIT/chatit2.png">
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mags-os" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">MAGS-OS</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Led a team of four other members in building a new Operating System</p>
+                    <p>This project extends on an open source OS project called the baskernel</p>
+                    <p>Added a keyboard driver, which allowed users to communicate with the OS</p>
+                    <p>Added pre-set commands which allowed users to get system specifics</p>
+                    <p>Resulted in a new Opeating System with better end-user functionality</p>
+                    <p>Language(s): <strong>C, Assembly</strong></p>
+                    <p class="links">
+                        <a href="https://github.com/awaisabir/MAGS-OS" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                        <div class="text-center">
+                            <img src="../img/projects/MAG-OS/oldOS.png">
+                            <p></p>
+                            <img src="../img/projects/MAG-OS/newOS.png">
+                        </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
