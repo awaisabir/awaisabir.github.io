@@ -69,7 +69,7 @@ function App() {
           <a className='social-link' target='_blank' href='https://linkedin.com/in/awaisabir'><img src='https://img.shields.io/badge/-awaisabir-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/awaisabir/' /></a>
           <a className='social-link' target='_blank' href='https://medium.com/@awaisabir'><img src='https://img.shields.io/badge/-@awaisabir-03a57a?style=flat-square&labelColor=000000&logo=Medium&link=https://medium.com/@awaisabir)' /></a>
           <a className='social-link' target='_blank' href='https://github.com/awaisabir'><img src='https://img.shields.io/badge/-awaisabir-grey?style=flat-square&logo=Github&logoColor=white&link=https://www.github.com/awaisabir)' /></a>
-          <a className='social-link' target='_blank' href='https://drive.google.com/file/d/1aJY4C5jj3Q6VE2rw1FnVSZMiPhMWDppJ/view?usp=sharing'><img src='https://img.shields.io/static/v1?label=&message=Resume&color=red' /></a>
+          <a className='social-link' target='_blank' href='https://drive.google.com/file/d/16Ur5rHwFjoyIadV7Hfkh2pIhMxbyKKn1/view?usp=sharing'><img src='https://img.shields.io/static/v1?label=&message=Resume&color=red' /></a>
         </div>
       </div>
     </>
